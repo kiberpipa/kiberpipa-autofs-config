@@ -1,0 +1,11 @@
+automounter for NFS Client in Cyberpipe
+=======================================
+
+sudo su && cd
+apt-get install autofs portmap nfs-common
+
+git clone https://github.com/iElectric/kiberpipa-autofs-config.git
+cd kibberpipa-autofs-config
+cp auto.master /etc/
+cp auto.nfs /etc/
+service autofs restart
