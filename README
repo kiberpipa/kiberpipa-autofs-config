@@ -2,9 +2,10 @@
 # =======================================
 # 
 
+git clone git://github.com/brodul/kiberpipa-autofs-config.git
+
 apt-get install autofs portmap nfs-common
 
-git clone https://github.com/iElectric/kiberpipa-autofs-config.git
 cp kiberpipa-autofs-config/auto.master /etc/
 cp kiberpipa-autofs-config/auto.nfs /etc/
 service autofs restart
