@@ -5,7 +5,7 @@ sudo su && cd
 apt-get install autofs portmap nfs-common
 
 git clone https://github.com/iElectric/kiberpipa-autofs-config.git
-cd kibberpipa-autofs-config
+cd kiberpipa-autofs-config
 cp auto.master /etc/
 cp auto.nfs /etc/
 service autofs restart
